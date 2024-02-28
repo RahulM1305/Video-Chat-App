@@ -64,7 +64,7 @@ function Chat() {
   }, [myStream]);
 
   const handleCallAccepted = useCallback(
-    ({ from, ans }) => {
+    ({ ans }) => {
       peer.setLocalDescription(ans);
       console.log("Call Accepted!");
       sendStreams();
