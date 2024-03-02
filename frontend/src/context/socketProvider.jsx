@@ -11,7 +11,8 @@ export const useSocket = () => {
 
 export const SocketProvider = (props) => {
   const socket = useMemo(() => {
-    const s = io("localhost:5000");
+    //localhost:5000
+    const s = io("localhost:5000", { debug: true });
     return s;
   }, []);
 
