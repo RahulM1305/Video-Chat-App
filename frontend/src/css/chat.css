@@ -51,10 +51,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.chat-box input[type="text"]:focus,
+/* .chat-box input[type="text"]:focus,
 .chat-box butt{
   
-}
+} */
 
 @media  screen  and (max-width:360px) {
   .chat-container {
