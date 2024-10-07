@@ -1,61 +1,16 @@
-# Video-Chat-App
-Video Chat App
-This is a simple video chat application built using WebRTC and Socket.IO. It allows users to create rooms and have video conversations with each other in real-time.
+# Video Chat App
 
-Features
-Create and Join Rooms: Users can create new rooms or join existing ones.
-Real-Time Video Chat: Utilizes WebRTC for peer-to-peer video communication.
-Chat Feature: Alongside video, users can also exchange text messages.
-Simple and Intuitive UI: Easy-to-use interface for seamless user experience.
-Demo
-You can try out the app live at Video Chat App Demo (Replace with your live demo link if available).
+## Introduction
 
-Installation
-To run the application locally, follow these steps:
+This project endeavors to develop a video chat application that not only ensures real-time communication but also prioritizes security, scalability, and user experience. By integrating WebRTC and Socket.IO along with a robust backend powered by Python and Flask, the aim is to create a platform that provides users with a reliable, interactive, and feature-rich experience. Our project utilizes React for the frontend and Python Flask for the backend, integrating both seamlessly to deliver a robust and dynamic user experience.
 
-Clone this repository:
+Demo Link : https://vidchat-app-088n.onrender.com
 
-bash
-Copy code
-git clone https://github.com/RahulM1305/Video-Chat-App.git
-Navigate into the project directory:
+### Screenshots
+![image](https://github.com/user-attachments/assets/96131e30-9d58-46fa-bf95-320a54c27dc8)
+![image](https://github.com/user-attachments/assets/4f46a81b-10a5-48ab-a9b8-d4bda977b3e7)
+![image](https://github.com/user-attachments/assets/30ea8a05-e0dd-4de7-bb34-cfcb4ad7044a)
+![image](https://github.com/user-attachments/assets/1c6b6d5e-fe40-4666-a344-2e9723a4003d)
 
-bash
-Copy code
-cd Video-Chat-App
-Install dependencies:
 
-Copy code
-npm install
-Start the development server:
-
-sql
-Copy code
-npm start
-Open your browser and visit http://localhost:3000.
-
-Usage
-Enter your name and the room name.
-Share the room name with others whom you want to join the video call.
-Enjoy video chatting!
-Technologies Used
-Frontend: React, Socket.IO Client
-Backend: Node.js, Express, Socket.IO
-WebRTC Library: SimplePeer
-Contributing
-Contributions are welcome! Here's how you can contribute to this project:
-
-Fork the repository.
-Create your feature branch: git checkout -b feature/my-new-feature.
-Commit your changes: git commit -am 'Add some feature'.
-Push to the branch: git push origin feature/my-new-feature.
-Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-Inspiration and initial setup from Tutorial Name or Resource.
-Icons used in the application are from Font Awesome.
-Contact
-For any inquiries or issues, please open an issue on GitHub or contact me directly at [Your Email Address].
 
